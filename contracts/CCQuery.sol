@@ -119,7 +119,7 @@ contract CCQuery is CustomChanIbcApp {
 
         (string memory message) = abi.decode(ack.data, (string));
 
-        // emit LogAcknowledgement(message);
+        emit LogAcknowledgement(message);
     }
 
     /**

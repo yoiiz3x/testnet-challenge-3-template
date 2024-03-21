@@ -1,8 +1,8 @@
 {
   "proofsEnabled": false,
   "deploy": {
-    "optimism": "XCounterUC",
-    "base": "XCounterUC"
+    "optimism": "CCQueryUC",
+    "base": "CCQueryUC"
   },
   "isUniversal": true,
   "createChannel": {
@@ -28,12 +28,12 @@
   },
   "sendUniversalPacket": {
     "optimism": {
-      "portAddr": "0x1234567890abcdef1234567890abcdef12345678",
-      "channelId": "channel-x",
+      "portAddr": "0x302961814A5aA4C8ca58Ee53E13becD1900A1594",
+      "channelId": "channel-10",
       "timeout": 36000
     },
     "base": {
-      "portAddr": "0x1234567890abcdef1234567890abcdef12345678",
+      "portAddr": "0x92b068E0b9DbCc59EeF8BD300Ff55f6BAdF1aF99",
       "channelId": "channel-y",
       "timeout": 36000
     }
